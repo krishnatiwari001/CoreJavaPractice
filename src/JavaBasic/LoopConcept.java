@@ -3,6 +3,7 @@ package JavaBasic;
 public class LoopConcept {
 
 	public static void main(String[] args) {
+		//Learn For each concept also
 		//while loop: dis advantage: if we did not write increment or decrement part in loop body it will generate infinite loop
 		//while and for is keyword in java so we have to write in small letters
 		
