@@ -77,6 +77,48 @@ public class ArrayConcept_5 {
 			System.out.println("Object array index "+k+"value is: "+obj[k]);
 		}
 		
+		System.out.println("######### Two Dimension Array ###################");
+		
+		//Two Dimension array
+		int ar[][]=new int[4][3];
+		//int[4] is row
+		//int[3] is column
+		
+		System.out.println("Row size"+ar.length);//length of row
+		System.out.println("Column size"+ar[0].length);//length of column
+		
+		//first row
+		ar[0][0] = 10;
+		ar[0][1] = 20;
+		ar[0][2] = 30;
+		
+		//Second row
+		ar[1][0] = 50;
+		ar[1][1]=60;
+		ar[1][2]=70;
+		
+		//third row
+		ar[2][0]=90;
+		ar[2][1]=100;
+		ar[2][2]=110;
+		
+		//Fourth row
+		ar[3][0]=130;
+		ar[3][1]=140;
+		ar[3][2]=150;
+		
+		
+		System.out.println(ar[1][1]);//this will print specific value
+		
+		//print all values of 2d array
+		for(int k=0;k<ar.length;k++)
+		{
+			for(int l=0;l<ar[0].length;l++)
+			{
+				System.out.println("Two Dimension array row "+k+" columns "+l+" value is: "+ar[k][l]);
+			}
+		}
+		
 	}
 
 }
