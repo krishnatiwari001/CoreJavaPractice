@@ -11,7 +11,7 @@ public class IncrementDecrementOperator {
 		
 		int c=3;
 		int d=++c;//pre increment first it will increase value of c by 1 after that it will assign to d
-		System.out.println(c);//3
+		System.out.println(c);//4
 		System.out.println(d);//4
 		
 		int e=5;
